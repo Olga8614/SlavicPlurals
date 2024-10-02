@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "PTSans";
+  src: url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans";
+  src: url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'PTSans', Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+ol li {
+    margin-left: 10%;
+}
+figure ol {
+    font-style: normal;
+    color: green;
+	text-align: left;
+}
+
+.ending {
+	background-color: skyblue;
+}
+
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
+  margin-right: auto;
+  margin-left: auto;  
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: brown;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h3 {
+  font-size: 28px;
+  text-align: center;
+  color: saddlebrown;
+  margin-right: auto;
+  margin-left: auto;
+}
+h4 {
+	font-size: 24px;
+    text-align: center;
+    color: saddlebrown;
+    margin-right: auto;
+    margin-left: auto;
+}
+h5 {
+  font-size: 20px;
+  text-align: left;
+  text-indent: 50px;
+  color: saddlebrown;
+  margin-right: auto;
+  margin-left: auto;
+}
